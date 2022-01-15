@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="B.B Antipolo">
+    <meta name="description" content="HTML Forms">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Intuit Form Clone</title>
+    <script src="https://kit.fontawesome.com/ed247afa0e.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="assets/images/favicons/favicon-128.png" sizes="128x128">
+    <link rel="icon" type="image/png" href="assets/images/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="assets/images/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="assets/images/favicons/favicon-16x16.png" sizes="16x16">
+</head>
+<body>
+    <section class="sign-in-container">
+        <div class="sign-in-container-full-width">
+            <div class="sign-in-wrapper">
+                <div class="forgotten-credentials">
+                    <p>Already have an Intuit account?</p>
+                    <a
+                        href="https://accounts.intuit.com/account-recovery.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Ftask%3DS">I
+                        forgot my User ID or Password</a>
+                </div>
+                <a
+                    href="https://accounts.intuit.com/index.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Ftask%3DS">
+                    <button class="sign-in-btn">
+                        <span class="white-lock-img"></span>
+                        Sign In
+                    </button>
+                </a>
+            </div>
+        </div>
+        <header class="main-header">
+            <div class="logo-container">
+                <a class="logo" href="#"></a>
+            </div>
+        </header>
+        <section class="main-container">
+            <header>
+                <div class="logo-container center">
+                    <ul class="sign-up-bottom-header">
+                        <li>
+                            <span id="mint-favicon" class="brand-favicons"></span>
+                            <a id="mint-text"></a>
+                        </li>
+                        <li>
+                            <span id="quickbooks-favicon" class="brand-favicons"></span>
+                            <a id="quickbooks-text"></a>
+                        </li>
+                        <li>
+                            <span id="turbotax-favicon" class="brand-favicons"></span>
+                            <a id="turbotax-text"></a>
+                        </li>
+                    </ul>
+                </div>
+            </header>
+            <div class="sign-up-form-wrapper">
+                <section>
+                    <header class="header-container">
+                        <span class="sign-up-header">Create an Intuit Account</span>
+                        <span>
+                            <span class="sign-up-sub-header">
+                                One account for everything Intuit, including Mint.
+                            </span>
+                            <a href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account">Learn
+                                More</a>
+                        </span>
+
+                    </header>
+                    <form class="sign-up-form">
+                        <fieldset>
+                            <label>Email address</label>
+                            <div>
+                                <input type="text" class="text-input">
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <div>
+                                <label class="label-additional-text">Phone</label>
+                                <label id="sign-up-additional-text" class="label-additional-text">&nbsp;(recommended)</label>
+                            </div>
+                            <div class="input-container">
+                                <input type="text" class="text-input">
+                            </div>
+                            <span class="input-informational-text">
+                                Standard call, messagem or data rates may apply.
+                            </span>
+                        </fieldset>
+                        <fieldset>
+                            <label>Password</label>
+                            <div class="input-container">
+                                <input type="text" class="text-input">
+                                <span class="input-status lock-left-grey"></span>
+                            </div>
+                        </fieldset>
+                        <div id="sign-up-create-account-btn-wrapper">
+                            <button id="sign-up-create-account-btn">
+                                <span class="white-lock-img"></span>
+                                <span id="sign-up-submit-text">Create Account</span>
+                            </button>
+                        </div>
+                    </form>
+                    <footer class="sign-up-form-footer">
+                        <span class="sign-up-form-footer-text">
+                            By selecting Create Account, you agree to our <a href="https://www.mint.com/terms">Terms</a>
+                            and have read and acknowledge our <a href="https://www.intuit.com/privacy/statement/">Global
+                                Privacy Statement</a>.
+                        </span>
+                    </footer>
+                </section>
+                <section class="captcha-tos-container">
+                    <span class="captcha-terms-of-use">
+                        Invisible reCAPTCHA by Google <a href="https://www.google.com/intl/en/policies/privacy/">Privacy
+                            Policy</a> and <a href="https://www.google.com/intl/en/policies/terms/">Terms and
+                            Use</a>.</span>
+                </section>
+            </div>
+            <footer class="main-footer">
+                <div id="sign-up-footer-container">
+                    <div class="sign-up-footer-links">
+                        <ul class="footer-link-container">
+                            <li>
+                                <a class="footer-link" href="https://www.intuit.com/legal/">Legal</a>
+                            </li>
+                            <li>
+                                <a class="footer-link" href="https://www.intuit.com/privacy/statement/">Privacy</a>
+                            </li>
+                            <li>
+                                <a class="footer-link" href="http://security.intuit.com/">Security</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-copyright">
+                        <div>© 2021 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and
+                            Mint are registered trademarks of Intuit Inc. </div>
+                        <div>Terms and conditions, features, support, pricing, and service options subject to change
+                            without notice.</div>
+                    </div>
+                </div>
+                <div id="sign-up-privacy-settings">
+                    <a id="sign-up-privacy-settings-link" href="#">Privacy Settings</a>
+                </div>
+            </footer>
+        </section>
+    </section>
+</body>
+
+</html>
